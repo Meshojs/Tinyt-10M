@@ -61,8 +61,8 @@ model = TinyT(
 # Generation Test ✍️
 
 
-<img width="3680" height="1136" alt="Temperature_-0 5" src="https://github.com/user-attachments/assets/87460be6-c246-47a8-b8be-9240acabf0f7" />
 <img width="3680" height="1316" alt="BEST---Temperature_-0 8" src="https://github.com/user-attachments/assets/613c9d59-2228-47ea-81cb-9b764824d2c6" />
+<img width="3680" height="1136" alt="Temperature_-0 5" src="https://github.com/user-attachments/assets/87460be6-c246-47a8-b8be-9240acabf0f7" />
 <img width="3680" height="1408" alt="Temperature_-0 8" src="https://github.com/user-attachments/assets/9c2db908-f3e4-4d0a-9e8b-45435666899f" />
 
 </br>
