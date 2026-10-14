@@ -4,7 +4,7 @@
 # Abstract 🧾
 <div align="left">
   
-We introduce **TinyT-10M**, a 10M-parameter, decoder-only Transformer designed for training on the `roneneldan/TinyStories` dataset.
+We introduce **TinyT-5M**, a 5M-parameter, decoder-only Transformer designed for training on the `roneneldan/TinyStories` dataset.
 The model uses a **Byte Pair Encoding (BPE)** tokenizer with a vocabulary size of 12,000 tokens and positional encodings to represent token positions. 
 Its architecture consists of five Transformer blocks, each using **multi-head self-attention**, RMSNorm, GELU activation, and a feed-forward network.
 We adopt a **pre-norm architecture** with RMSNorm to support training stability and gradient flow. We initialize linear and embedding weights from a
