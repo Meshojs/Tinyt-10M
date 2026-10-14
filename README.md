@@ -56,17 +56,38 @@ model = TinyT(
     Warmup steps:        300
     Weight decay:        0.1
     AdamW betas:         (0.9, 0.95)
+    precisions:          mixed precisions bf16
 
 
 # Generation Test ✍️
 
 
-<img width="3680" height="1316" alt="BEST---Temperature_-0 8" src="https://github.com/user-attachments/assets/613c9d59-2228-47ea-81cb-9b764824d2c6" />
-<img width="3680" height="1136" alt="Temperature_-0 5" src="https://github.com/user-attachments/assets/87460be6-c246-47a8-b8be-9240acabf0f7" />
-<img width="3680" height="1408" alt="Temperature_-0 8" src="https://github.com/user-attachments/assets/9c2db908-f3e4-4d0a-9e8b-45435666899f" />
+<img width="900" alt="BEST - Temperature -0.8"
+src="https://github.com/user-attachments/assets/613c9d59-2228-47ea-81cb-9b764824d2c6" />
 
+<img width="900" alt="Temperature -0.5"
+src="https://github.com/user-attachments/assets/87460be6-c246-47a8-b8be-9240acabf0f7" />
+
+<img width="900" alt="Temperature -0.8"
+src="https://github.com/user-attachments/assets/9c2db908-f3e4-4d0a-9e8b-45435666899f" />
 </br>
 
+
+# Training Condition 📚
+
+     The model's training process was really smooth, as shown in the image above
+     loss went from 9.6 to 2.2 ~ 2.4 in 12K steps. The model was trained 
+     for 3.30 hours and was trained on 3060 laptop GPU 6 V-rams with mixed precisions bf16
+
+
+<img width="684" height="31" alt="final" src="https://github.com/user-attachments/assets/4dd941c1-304d-49f2-891e-99aa5f847053" />
+
+
+</hr>
+
+</br>
+</br>
+</br>
 
 <div align="center">
 
