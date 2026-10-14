@@ -4,7 +4,7 @@
 
 <p align="center">
   
-We introduce **TinyT-5M** , a 5-million-parameter, decoder-only Transformer trained from scratch on the `roneneldan/TinyStories` dataset.
+We introduce **TinyT-6M** , a 6-million-parameter, decoder-only Transformer trained from scratch on the `roneneldan/TinyStories` dataset.
 The model uses a **Byte Pair Encoding (BPE)** tokenizer with a vocabulary size of 12,000 tokens and positional encodings to represent token positions. Its architecture consists of **four Transformer blocks**, each using multi-head self-attention, RMSNorm, GELU activation, and a feed-forward network with a 4× expansion ratio.
 We adopt a **pre-norm architecture** with RMSNorm to support training stability and gradient flow. Linear weights are initialized from a normal distribution with a mean of 0 and a standard deviation of 0.02. We configure the **AdamW optimizer** with separate parameter groups, applying weight decay to matrix parameters while excluding one-dimensional parameters, such as biases and RMSNorm scales, from weight decay.
 Training uses a learning rate of 3e-4, a batch size of 32, and a cosine learning rate schedule with 300 warmup steps and a minimum learning rate of 3e-5. The model is trained for one epoch, with a maximum of 12,208 training steps.
@@ -31,7 +31,7 @@ model = TinyT(
 #### **0.2 - Model Details**
 
     Architecture:        Decoder-only Transformer
-    Parameters:          ~5M
+    Parameters:          ~6M
     Dataset:             roneneldan/TinyStories
     Tokenizer:           BPE
     Vocabulary size:     12,000
